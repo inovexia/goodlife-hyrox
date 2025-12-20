@@ -28,5 +28,5 @@ export default function HomePage() {
   if (loading) return <Loader />;
   if (!content) return <div>Page not found</div>;
 
-  return <BuilderComponent model='page' content={content} />;
+  return <BuilderComponent model="page" content={content} />;
 }

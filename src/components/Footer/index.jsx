@@ -18,7 +18,7 @@ export default function Footer() {
   }, []);
 
   return symbols
-    .filter((s) => s.name === 'footer-main')
+    .filter((s) => s.name === 'footer')
     .map((symbol) => (
       <BuilderComponent key={symbol.id} model='symbol' content={symbol} />
     ));

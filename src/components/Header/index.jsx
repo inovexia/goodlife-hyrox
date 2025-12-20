@@ -17,7 +17,7 @@ export default function Header() {
      }
      fetchSymbols();
    }, []);
-
+console.log(symbols);
   return (
     symbols
         .filter((s) => s.name === 'Header')
